@@ -6,6 +6,7 @@ body{
 h1{
     font-family: AsalViralDemo;
     font-size: 100px;
+    text-align: center;
 }
 error{
     color: orange;

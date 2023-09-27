@@ -11,23 +11,14 @@ Writtn by: Preston Chapman
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src = "nav.js"></script>
     <title>Preston Chapman's Webpage</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
-<nav>
-    <!--Button for game page-->
-    <button onclick="window.location.href='boards/boards_ACS.html'">
-        ACS Board
-    </button>
-    <!--Button for game page-->
-    <button onclick="window.location.href='boards/boards_GP.html'">
-        GP Board
-    </button>
-    <!--Button for game page-->
-    <button onclick="window.location.href='game/game_info.html'">
-        Play my Game!
-    </button>
+<nav id="nav">
+
 </nav>
-<body>
+<body onload="loadnav();">
     <header style="text-align: center;">
         <h1>
             Welcome to Preston C.'s Webpage
